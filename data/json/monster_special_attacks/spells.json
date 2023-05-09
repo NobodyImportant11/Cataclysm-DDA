@@ -1028,4 +1028,32 @@
       { "u_add_effect": "strengthened_gravity", "duration": [ "4 hours", "6 hours" ] }
     ]
   }
+  {
+    "type": "SPELL",
+    "id": "command_summon",
+    "name": "Summoning Howl",
+    "description": "Commander yells to summon zombies",
+    "valid_targets": "self",
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 40,
+    "max_damage": 40,
+    "sound_description": "a dry scream",
+    "sound_type": "order",
+    "sound_ambient": false
+  }
+  {
+	"type": "SPELL",
+	"id": "command_attack",
+	"name": "Commanding Shriek",
+	"description": "The commander points at you and shrieks. The horde descends.",
+	"valid_targets": "hostile",
+	"shape": "blast",
+	"effect": "noise",
+	"min_damage": 20,
+	"max_damage": 20,
+	"sound_description": "an unnatural shriek",
+	"sound_type": "order",
+	"sound_ambient": false
+  }
 ]
