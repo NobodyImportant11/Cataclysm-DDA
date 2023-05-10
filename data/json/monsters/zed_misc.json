@@ -941,10 +941,10 @@
         "id": "command_attack"
     },
     "cooldown": 40,
-    "monster_message": "The zombie points at you and shrieks! The sound bends around you!"
+    "monster_message": "The zombie points at you and shrieks!  The sound bends around you!"
     }
 	],
-    "anger_triggers": [ "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
+    "anger_triggers": [ "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT" ],
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
@@ -1011,10 +1011,10 @@
         "id": "command_attack"
     },
     "cooldown": 40,
-    "monster_message": "The zombie points at you and shrieks! The sound bends around you!"
+    "monster_message": "The zombie points at you and shrieks!  The sound bends around you!"
     }
 	],
-    "anger_triggers": [ "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
+    "anger_triggers": [ "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT" ],
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",

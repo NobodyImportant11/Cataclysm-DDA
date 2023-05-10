@@ -1027,7 +1027,7 @@
       { "arithmetic": [ { "global_val": "var", "var_name": "portal_dungeon_carry_strength" }, "--" ], "min": -75 },
       { "u_add_effect": "strengthened_gravity", "duration": [ "4 hours", "6 hours" ] }
     ]
-  }
+  },
   {
     "type": "SPELL",
     "id": "command_summon",
@@ -1041,12 +1041,12 @@
     "sound_description": "a dry scream",
     "sound_type": "order",
     "sound_ambient": false
-  }
+  },
   {
 	"type": "SPELL",
 	"id": "command_attack",
 	"name": "Commanding Shriek",
-	"description": "The commander points at you and shrieks. The horde descends.",
+	"description": "The commander points at you and shrieks.  The horde descends.",
 	"valid_targets": "hostile",
 	"shape": "blast",
 	"effect": "noise",
