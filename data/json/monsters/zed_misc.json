@@ -926,7 +926,24 @@
     "vision_night": 5,
     "harvest": "zombie",
     "path_settings": { "max_dist": 10, "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
-    "special_attacks": [ [ "UPGRADE", 10 ] ],
+    "special_attacks": [ [ "UPGRADE", 10 ], 
+	{
+      "type": "spell",
+      "spell_data": {
+        "id": "command_summon"
+      },
+    "cooldown": 200,
+    "monster_message": "The zombie throws back its head and howls!"
+    },
+	{
+      "type": "spell",
+      "spell_data": {
+        "id": "command_attack"
+    },
+    "cooldown": 40,
+    "monster_message": "The zombie points at you and shrieks! The sound bends around you!"
+    }
+	],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT" ],
     "death_drops": "default_zombie_death_drops",
@@ -979,7 +996,24 @@
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "harvest": "zombie",
     "path_settings": { "max_dist": 10 },
-    "special_attacks": [ [ "RESURRECT", 0 ] ],
+    "special_attacks": [ [ "RESURRECT", 0 ], 
+	{
+      "type": "spell",
+      "spell_data": {
+        "id": "command_summon"
+      },
+    "cooldown": 200,
+    "monster_message": "The zombie throws back its head and howls!"
+    },
+	{
+      "type": "spell",
+      "spell_data": {
+        "id": "command_attack"
+    },
+    "cooldown": 40,
+    "monster_message": "The zombie points at you and shrieks! The sound bends around you!"
+    }
+	],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT" ],
     "death_drops": "default_zombie_death_drops",
